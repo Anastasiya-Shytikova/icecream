@@ -1,0 +1,19 @@
+.gallery {
+  background: linear-gradient(to bottom, #fff5f6 37%, #ffffff 37%);
+}
+
+.gallery-collage_photo {
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+    left: 0px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1280px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.container-gallery {
+  padding-left: 0px;
+  padding-right: 0px;
+}

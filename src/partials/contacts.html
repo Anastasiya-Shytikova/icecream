@@ -1,0 +1,175 @@
+<!-- секция контакты -->
+<section class="contacts-section" id="contacts">
+  <div class="container">
+    <!-- невидимый хедер -->
+    <h2 class="visually-hidden">Contacts</h2>
+    <!-- список карточек контактов -->
+    <ul class="contacts">
+      <li class="contacts__card">
+        <p class="contacts__card-category">cafe</p>
+        <div class="contacts__card-item">
+          <!-- Город -->
+          <h3 class="contacts__card--city">Chicago</h3>
+          <p class="contacts__card--grey">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+        </div>
+        <!-- Время работы -->
+        <ul class="contacts__working-time">
+          <li class="contacts__time-item">
+            <p class="contacts__card--black">Monday - Friday</p>
+            <p class="contacts__card--pink">
+              <time datetime="06:00">06:00 AM</time> - <time datetime="22:00">10:00 PM</time>
+            </p>
+          </li>
+          <li class="contacts__time-item">
+            <p class="contacts__card--black">Saturday - Sunday</p>
+            <p class="contacts__card--pink">
+              <time datetime="08:00">08:00 AM</time> - <time datetime="16:00">16:00 PM</time>
+            </p>
+          </li>
+        </ul>
+        <ul class="adress__list">
+          <li class="adress__tel">
+            <a class="contacts__link" href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+          </li>
+          <li class="adress__email">
+            <a class="contacts__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+          </li>
+        </ul>
+      </li>
+      <li class="contacts__card">
+        <p class="contacts__card-category">food truck</p>
+        <div class="contacts__card-item">
+          <!-- Город -->
+          <h3 class="contacts__card--city">Los Angeles</h3>
+          <p class="contacts__card--grey">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+        </div>
+        <!-- Время работы -->
+        <ul class="contacts__working-time">
+          <li class="contacts__time-item">
+            <p class="contacts__card--black">Monday - Friday</p>
+            <p class="contacts__card--pink">
+              <time datetime="06:00">06:00 AM</time> - <time datetime="22:00">10:00 PM</time>
+            </p>
+          </li>
+          <li class="contacts__time-item">
+            <p class="contacts__card--black">Saturday - Sunday</p>
+            <p class="contacts__card--pink">
+              <time datetime="08:00">08:00 AM</time> - <time datetime="16:00">16:00 PM</time>
+            </p>
+          </li>
+        </ul>
+        <ul class="adress__list">
+          <li class="adress__tel">
+            <a class="contacts__link" href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+          </li>
+          <li class="adress__email">
+            <a class="contacts__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+          </li>
+        </ul>
+      </li>
+      <li class="contacts__card">
+        <p class="contacts__card-category">cafe</p>
+        <div class="contacts__card-item">
+          <!-- Город -->
+          <h3 class="contacts__card--city">New York</h3>
+          <p class="contacts__card--grey">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+        </div>
+        <!-- Время работы -->
+        <ul class="contacts__working-time">
+          <li class="contacts__time-item">
+            <p class="contacts__card--black">Monday - Friday</p>
+            <p class="contacts__card--pink">
+              <time datetime="06:00">06:00 AM</time> - <time datetime="22:00">10:00 PM</time>
+            </p>
+          </li>
+          <li class="contacts__time-item">
+            <p class="contacts__card--black">Saturday - Sunday</p>
+            <p class="contacts__card--pink">
+              <time datetime="08:00">08:00 AM</time> - <time datetime="16:00">16:00 PM</time>
+            </p>
+          </li>
+        </ul>
+        <ul class="adress__list">
+          <li class="adress__tel">
+            <a class="contacts__link" href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+          </li>
+          <li class="adress__email">
+            <a class="contacts__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="contacts-modal">
+      <li class="contacts__modal-item">
+        <button type="button" class="contacts__button button button--red" data-map-modal-open>
+          Our Locations
+          <svg class="contacts__arrow">
+            <use href="./images/icons.svg#chevron-right"></use>
+          </svg>
+        </button>
+      </li>
+      <li class="contacts__modal-item">
+        <button type="button" class="contacts__button button button--white" data-franshise-open>
+          Franchise
+          <svg class="contacts__arrow">
+            <use href="./images/icons.svg#chevron-right"></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+    <div class="backdrop-location is-hidden" data-map-modal>
+      <div class="modal-location">
+        <button class="modal-location__close-btn" type="button" data-modal-close>
+          <svg width="18" height="18">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <iframe
+          class="google-maps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d736.2909471351214!2d30.533831958462414!3d50.426283998843275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf11a1516e25%3A0x3038967554e54e1!2z0JLQvtC70L3QsA!5e0!3m2!1sru!2sua!4v1638725018370!5m2!1sru!2sua"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+    <div class="backdrop-franshise is-hidden" data-franshise>
+      <div class="modal-franshise">
+        <button class="modal-franshise__close-btn" type="button" data-franshise-close>
+          <svg width="18" height="18">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h3 class="franshise-head">Do you want to have your own business?</h3>
+        <p class="modal-franshise__text">We have the best offer for you.</p>
+        <p class="modal-franshise__text">Franchise!!!</p>
+        <p class="modal-franshise__text">Leave us your contacts and we`ll call you back!</p>
+        <div class="franshise-form-container">
+          <form name="modal-franshise-form">
+            <div class="label-container">
+              <label for="modal-name">
+                <span class="modal__label">Name</span>
+              </label>
+              <input class="modal__input" type="text" name="name" id="modal-name" />
+            </div>
+            <div class="label-container">
+              <label for="modal-phone">
+                <span class="modal__label">Phone</span>
+              </label>
+              <input class="modal__input" type="tel" name="phone" id="modal-phone" />
+            </div>
+            <div class="label-container">
+              <label for="modal-mail">
+                <span class="modal__label">Email</span>
+              </label>
+              <input class="modal__input" type="email" name="mail" id="modal-mail" />
+            </div>
+          </form>
+        </div>
+        <button type="submit" class="button button--white">
+          <span class="">Send!</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
